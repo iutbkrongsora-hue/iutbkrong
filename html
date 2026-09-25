@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Y UT BKRONG - Bio</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0b0b0f;
+            color: #f3f4f6;
+            overflow-x: hidden;
+        }
+
+        .glass-card {
+            background: rgba(20, 20, 28, 0.75);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .pink-gradient-glow {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(
+                circle,
+                rgba(236, 72, 153, 0.15) 0%,
+                rgba(0, 0, 0, 0) 70%
+            );
+            border-radius: 50%;
+            z-index: -1;
+        }
+
+        .link-btn {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .link-btn:hover {
+            transform: translateY(-3px);
+            border-color: rgba(236, 72, 153, 0.5);
+            box-shadow: 0 10px 25px -5px rgba(236, 72, 153, 0.2);
+        }
+    </style>
+</head>
+
+<body class="min-h-screen flex items-center justify-center p-4 relative">
+
+    <!-- Hiệu ứng nền -->
+    <div class="pink-gradient-glow top-10 left-1/4"></div>
+    <div class="pink-gradient-glow bottom-10 right-1/4"></div>
+
+
+    <!-- PROFILE CARD -->
+    <div class="w-full max-w-md glass-card rounded-3xl p-6 md:p-8 shadow-2xl relative z-10 my-8">
+
+
+        <!-- AVATAR + THÔNG TIN -->
+        <div class="flex flex-col items-center text-center">
+
+            <!-- Avatar -->
+            <div class="relative mb-5 group">
+
+                <div class="absolute -inset-1
+                            bg-gradient-to-r from-pink-500 via-white to-pink-500
+                            rounded-full blur-md opacity-60
+                            group-hover:opacity-100
+                            transition duration-500">
+                </div>
+
+                <img
+                    src="IMG_0266.jpeg"
+                    alt="Avatar Y UT BKRONG"
+                    class="relative w-32 h-32 rounded-full object-cover
+                           border-2 border-white/20 shadow-2xl"
+                >
+
+            </div>
+
+
+            <!-- TÊN -->
+            <h1 class="text-2xl font-bold tracking-tight text-white
+                       flex items-center justify-center gap-2">
+
+                Y UT BKRONG
+
+                <!-- Dấu tích -->
+                <span
+                    class="inline-flex items-center justify-center
+                           w-5 h-5 bg-blue-500 text-white
+                           rounded-full text-[11px]
+                           shadow-sm shadow-blue-500/50"
+                    title="Tài khoản đã xác minh"
+                >
+                    <i class="fa-solid fa-check"></i>
+                </span>
+
+            </h1>
+
+
+            <!-- CHỨC DANH -->
+            <p class="text-xs uppercase tracking-widest
+                      text-pink-400 font-semibold mt-1">
+
+                Content Creator
+
+            </p>
+
+
+            <!-- GIỚI THIỆU -->
+            <p class="text-sm text-gray-300 mt-3
+                      leading-relaxed px-2">
+
+                Chào mừng bạn đến với trang cá nhân
+                chính thức của tôi ✨
+
+            </p>
+
+        </div>
+
+
+
+        <!-- CÁC NÚT MẠNG XÃ HỘI -->
+        <div class="mt-6 space-y-3.5">
+
+
+            <!-- FACEBOOK -->
+            <a
+                href="https://www.facebook.com/share/1BSKVTYZvG/?mibextid=wwXIfr"
+                target="_blank"
+                rel="noopener noreferrer"
+
+                class="link-btn flex items-center justify-between
+                       p-3.5 rounded-2xl bg-white/5
+                       border border-white/10 text-white
+                       font-medium group
+                       hover:bg-white hover:text-black"
+            >
+
+                <div class="flex items-center gap-3">
+
+                    <div
+                        class="w-9 h-9 rounded-xl
+                               bg-pink-500/10 text-pink-400
+                               flex items-center justify-center
+                               group-hover:bg-black
+                               group-hover:text-white transition"
+                    >
+                        <i class="fa-brands fa-facebook-f text-lg"></i>
+                    </div>
+
+                    <span class="text-sm">
+                        Facebook Cá Nhân
+                    </span>
+
+                </div>
+
+                <i class="fa-solid fa-arrow-right text-xs
+                          opacity-50 group-hover:opacity-100 transition">
+                </i>
+
+            </a>
+
+
+
+            <!-- INSTAGRAM -->
+            <a
+                href="https://www.instagram.com/crazygtu.y/?next=%2Fusers%2Fself"
+                target="_blank"
+                rel="noopener noreferrer"
+
+                class="link-btn flex items-center justify-between
+                       p-3.5 rounded-2xl bg-white/5
+                       border border-white/10 text-white
+                       font-medium group
+                       hover:bg-white hover:text-black"
+            >
+
+                <div class="flex items-center gap-3">
+
+                    <div
+                        class="w-9 h-9 rounded-xl
+                               bg-pink-500/10 text-pink-400
+                               flex items-center justify-center
+                               group-hover:bg-black
+                               group-hover:text-white transition"
+                    >
+                        <i class="fa-brands fa-instagram text-lg"></i>
+                    </div>
+
+                    <span class="text-sm">
+                        Instagram
+                    </span>
+
+                </div>
+
+                <i class="fa-solid fa-arrow-right text-xs
+                          opacity-50 group-hover:opacity-100 transition">
+                </i>
+
+            </a>
+
+
+
+            <!-- TIKTOK -->
+            <a
+                href="https://www.tiktok.com/@toisongchosok"
+                target="_blank"
+                rel="noopener noreferrer"
+
+                class="link-btn flex items-center justify-between
+                       p-3.5 rounded-2xl bg-white/5
+                       border border-white/10 text-white
+                       font-medium group
+                       hover:bg-white hover:text-black"
+            >
+
+                <div class="flex items-center gap-3">
+
+                    <div
+                        class="w-9 h-9 rounded-xl
+                               bg-pink-500/10 text-pink-400
+                               flex items-center justify-center
+                               group-hover:bg-black
+                               group-hover:text-white transition"
+                    >
+                        <i class="fa-brands fa-tiktok text-lg"></i>
+                    </div>
+
+                    <span class="text-sm">
+                        TikTok
+                    </span>
+
+                </div>
+
+                <i class="fa-solid fa-arrow-right text-xs
+                          opacity-50 group-hover:opacity-100 transition">
+                </i>
+
+            </a>
+
+
+
+            <!-- TELEGRAM -->
+            <a
+                href="https://t.me/tfzjuzuz"
+                target="_blank"
+                rel="noopener noreferrer"
+
+                class="link-btn flex items-center justify-between
+                       p-3.5 rounded-2xl bg-white/5
+                       border border-white/10 text-white
+                       font-medium group
+                       hover:bg-white hover:text-black"
+            >
+
+                <div class="flex items-center gap-3">
+
+                    <div
+                        class="w-9 h-9 rounded-xl
+                               bg-pink-500/10 text-pink-400
+                               flex items-center justify-center
+                               group-hover:bg-black
+                               group-hover:text-white transition"
+                    >
+                        <i class="fa-brands fa-telegram text-lg"></i>
+                    </div>
+
+                    <span class="text-sm">
+                        Telegram
+                    </span>
+
+                </div>
+
+                <i class="fa-solid fa-arrow-right text-xs
+                          opacity-50 group-hover:opacity-100 transition">
+                </i>
+
+            </a>
+
+        </div>
+
+
+
+        <!-- FOOTER -->
+        <div class="mt-8 text-center
+                    border-t border-white/10 pt-4">
+
+            <p class="text-xs text-gray-500">
+
+                © 2026 Y UT BKRONG
+
+                <span class="text-pink-500">
+                    ♥
+                </span>
+
+                All rights reserved
+
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
